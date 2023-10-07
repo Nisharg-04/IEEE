@@ -1752,7 +1752,12 @@ label {
                   font-size: 18px; } }
               .transparent-header7 .header-bg7.home-7 .main-slider-area .item .slider-bg-7 .container .services-about .services-footer .contact h4 a:hover {
                 color: #FFFFFF; }
+                
 
+
+                .icon{
+                  width: 300px !important;
+                }
 .page-title-area {
   background-size: cover;
   background-position: center;
@@ -5438,9 +5443,11 @@ input.main-search-input:-ms-input-placeholder {
   border-bottom: 1px solid #e0e0e0; }
 
 .brand-title {
-  text-align: center; }
+  text-align: center;
+  font-size: 25px !important; 
+}
   .brand-title h5 {
-    font-size: 14px;
+    
     padding-left: 25px;
     padding-right: 25px; }
 
@@ -5525,6 +5532,28 @@ input.main-search-input:-ms-input-placeholder {
     .style-text {
       font-size: 70px; } }
 
+
+      .icon-cs{
+        margin-top:35px ;
+        height: 200px !important;
+        margin-bottom:40px ;
+      }
+      .icon-wie{
+        margin-bottom:40px !important;
+      }
+#services-content1
+{
+    padding-bottom: 0px !important;
+}
+#services-content2
+{
+    padding-bottom: 22px !important;
+}
+#services-content3
+{
+    padding-bottom: 4px !important;
+}
+
 .single-services2 {
   text-align: center;
   background-color: #ffffff;
@@ -5596,7 +5625,8 @@ input.main-search-input:-ms-input-placeholder {
     text-align: center;
     position: relative;
     margin: 0 auto;
-    z-index: 4; }
+    z-index: 4; 
+  }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .brand-bg .brand-title::before {
         width: 100px; }
