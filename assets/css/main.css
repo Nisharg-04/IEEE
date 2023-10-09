@@ -5553,6 +5553,29 @@ input.main-search-input:-ms-input-placeholder {
 {
     padding-bottom: 4px !important;
 }
+@media (max-width:400px){
+  .image1 img{
+      width: 200px !important;
+      height: 140px !important;
+  }
+  .image2 img{
+      width: 250px !important;
+      height: 230px !important;
+  }
+
+  .image3 img{
+    width: 205px !important;
+    height: 100px !important;
+  }
+  .image4 img{
+    width: 195px !important;
+    height: 125px !important;
+  }
+  .image5 img{
+    width: 150px !important;
+    height: 140px !important;
+  }
+}
 
 .single-services2 {
   text-align: center;
